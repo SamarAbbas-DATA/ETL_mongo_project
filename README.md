@@ -36,7 +36,7 @@ The pipeline extracts data from MongoDB on a schedule and, upon manual trigger, 
 
 ### Clone the repository
 ```bash
-git clone https://github.com/your-username/airflow-mongo-postgres.git
+git clone https://github.com/SamarAbbas-DATA/ETL_mongo_project.git
 cd airflow-mongo-postgres
 ```
 
