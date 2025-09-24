@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+logs/
+
+# Virtual env
+venv/
+.env
+
+# Airflow
+dags/*
+!dags/mongo_db_extraction.py
+!dags/transformation_export.py
+plugins/
+
+# Data
+output.csv
+shared/
+
+# OS
+.DS_Store
+Thumbs.db
